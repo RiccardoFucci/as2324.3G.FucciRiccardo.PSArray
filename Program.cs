@@ -50,8 +50,13 @@ namespace as2324._3G.FucciRiccardo.PSArray
                 {
                     if (voti[i] > max)
                     {
-                        
+                        max= voti[i];
                     }
+                    if (voti[i] < min)
+                    {
+                        min= voti[i];
+                    }
+                    
                 }
             }
 

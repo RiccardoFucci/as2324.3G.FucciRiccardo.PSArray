@@ -13,7 +13,7 @@ namespace as2324._3G.FucciRiccardo.PSArray
             int[] pesi = new int[dim];
             
 
-            CaricaVettori(voti, pesi, nVoti);
+            CaricaVettori( voti, pesi, nVoti);
         }
         static void StampaVotiPesi(double[] voti, int[] pesi, int nVoti)
         {
@@ -37,10 +37,17 @@ namespace as2324._3G.FucciRiccardo.PSArray
         {
             for(int i = 0; i<nVoti; i++)
             {
-                if(voti[i] > 4 &&  )
+                if (voti[i] > 4)
                 {
-                     
+                    Console.WriteLine($"in posizione{i+1} c'è il voto{voti} con peso{pesi}");
                 }
+            }
+        }
+       static void MediaPonderata(double[] voti, int[] pesi,int nVoti,ref double max, ref int posmax,ref double min, ref int posmin)
+        {
+            for (int i = 0;i<voti.Length; i++)
+            {
+
             }
         }
 
